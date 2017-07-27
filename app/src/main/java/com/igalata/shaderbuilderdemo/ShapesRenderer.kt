@@ -6,8 +6,8 @@ import android.opengl.GLSurfaceView
 import com.igalata.openglshaderbuilder.GLProgram
 import com.igalata.openglshaderbuilder.data.Vec4
 import com.igalata.openglshaderbuilder.rgba
-import com.igalata.openglshaderbuilder.shader.builder.Transformation
 import com.igalata.openglshaderbuilder.shader.builder.Shape
+import com.igalata.openglshaderbuilder.shader.builder.Transformation
 import com.igalata.openglshaderbuilder.shader.shapes.ShapeType
 import javax.microedition.khronos.egl.EGLConfig
 import javax.microedition.khronos.opengles.GL10

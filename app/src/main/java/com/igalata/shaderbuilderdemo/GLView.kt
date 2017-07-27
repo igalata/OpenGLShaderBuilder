@@ -13,7 +13,7 @@ class GLView : GLSurfaceView {
     constructor(context: Context) : this(context, null)
     constructor(context: Context, attrs: AttributeSet?) : super(context, attrs) {
         setEGLContextClientVersion(2)
-        setEGLConfigChooser(8,8,8,8,16,0)
+        setEGLConfigChooser(8, 8, 8, 8, 16, 0)
         setRenderer(ShapesRenderer(context))
         renderMode = RENDERMODE_CONTINUOUSLY
         holder.setFormat(PixelFormat.TRANSLUCENT)
