@@ -4,7 +4,7 @@ A handy lib to simplify creating typical animations with OpenGL
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)]()
 [![](https://jitpack.io/v/igalata/openglshaderbuilder.svg)](https://jitpack.io/#igalata/openglshaderbuilder)
 
-<img src="gif.gif"/>
+<img src="app/gif.gif"/>
 
 ## Requirements
 - Android SDK 17+
