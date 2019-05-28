@@ -32,7 +32,7 @@ internal fun Bitmap.toTexture(textureUnit: Int) {
 fun Int.rgba(context: Context) = ContextCompat.getColor(context, this).rgba()
 
 fun Int.rgba(): Vec4 = Vec4(
-        Color.red(this).toFloat() / 256f,
-        Color.green(this).toFloat() / 256f,
-        Color.blue(this).toFloat() / 256f,
-        Color.alpha(this).toFloat() / 256f)
+        Color.red(this).toFloat() / 255f,
+        Color.green(this).toFloat() / 255f,
+        Color.blue(this).toFloat() / 255f,
+        Color.alpha(this).toFloat() / 255f)
